@@ -32,7 +32,7 @@ VALUES
     (10, 4, '2023-10-15'),
     (11, 2, '2023-11-20');
 
-# Consider a database with two tables: "Orders" and "Customers." Write an SQL query to retrieve the top 5 customers who have made the most orders, along with the total count of their orders. Display the results in descending order of the order count and ascending order of customer names.
+# Display the results in descending order of the order count and ascending order of customer names.
 
 SELECT
     c.CustomerName,
